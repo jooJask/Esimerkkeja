@@ -1,8 +1,5 @@
-import java.util.Scanner;
 
-/*3. Tee yrityksen taloushallinnon järjestelmään ohjelma, 
-*joka kysyy käyttäjältä kustannuksen nettohinnan ja alv-prosentin.
-*Tietojen perusteella ohjelma laskee ja tulostaa kustannuksen bruttohinnan.
+/*Esittely tekemästäni tehtävästä.
 @author (C)JoonasJaskari 13.9.2020
 */
 
@@ -15,7 +12,9 @@ public class Tehtava3 {
         System.out.println("Tervehdys tasamaantallaaja");
         System.out.print("Syöttäisitkö tuotteen nettohinnan\n> ");
         nettoHinta = Double.valueOf(lukija.nextLine());
+
         System.out.print("Syöttäisitkö alv-prosentin\n> ");
+
         alv = Double.valueOf(lukija.nextLine());
         bruttoHinta = (nettoHinta + ((alv / 100) * nettoHinta));
         System.out.println("Bruttohinta on: " + bruttoHinta + " €");
