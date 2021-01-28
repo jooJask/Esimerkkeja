@@ -1,0 +1,13 @@
+2. Suunnittele ja toteuta luokka Henkilo, jonka kenttinä on henkilötietoja: nimi, 
+osoite, ikä ja puhelinnumero. Määrittele luokan suojausmääreet kapseloinnin 
+periaatteita noudattaen. Tee luokalle alustaja. Tee luokalle get- ja set-metodit
+sekä equals, copy ja toString -metodit.
+
+Kirjoita luokan metodeille Javadoc kommentit ja katso millainen html-dokumentaatio
+ niistä muodostuu (html-sivuja ei tarvitse palauttaa).
+ javadoc 
+
+Tee pääohjelma, jossa luot luokasta 2 oliota, joiden tiedot kysyt käyttäjältä.
+Sitten kopioit toisen olion tiedot uuteen kolmanteen olioon, testaat ovat tiedot
+samoja (ja kerrot vertailun tuloksen) sekä tulostat kaikkien olioiden tiedot 
+näkyville. (YDINASIAA)
